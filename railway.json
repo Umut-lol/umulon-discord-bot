@@ -1,4 +1,6 @@
 {
-  "build": "pip install -r requirements.txt",
+  "build": {
+    "builder": "NIXPACKS"
+  },
   "start": "python main.py"
 }
